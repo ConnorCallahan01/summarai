@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Summarai",
+  "description": "Summarize the page you are on",
+  "version": "1.0.0",
+  "action": {
+      "default_popup": "index.html",
+      "default_title": "Open the popup"
+  },
+  "permissions": [
+      "scripting",
+      "activeTab",
+      "storage",
+      "tabs"
+  ],
+  "host_permissions": [
+      "https://*/"
+  ]
+}
